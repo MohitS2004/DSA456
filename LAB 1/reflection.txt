@@ -1,0 +1,9 @@
+Reflection: Lab 1 Python Programming
+
+My experience programming in Python for this lab was mostly positive. I liked how simple and readable Python code is compared to other languages like C or C++. The syntax is clean, and I didn’t have to worry about things like semicolons or curly braces, which made writing functions and classes much faster. I also appreciated how easy it was to work with lists and strings in Python.
+
+One thing that behaved differently than I expected was how Python handles variable types. In C/C++, I always have to declare the type of a variable, but in Python, the type is determined automatically. This made coding easier, but I had to be careful not to mix types by accident. Also, Python’s indentation rules are strict, so I had to pay close attention to spacing to avoid errors.
+
+Comparing Python to C/C++, I found that Python is much more forgiving and beginner-friendly. There’s no need to manage memory manually, and the language takes care of many details for you. However, C/C++ gives you more control over how your program runs, which can be important for performance. In Python, I focused more on solving the problem than on the details of the language, while in C/C++ I spend more time thinking about types, memory, and syntax.
+
+Overall, I enjoyed using Python for this lab and found it to be a great language for learning programming concepts and quickly implementing solutions.
