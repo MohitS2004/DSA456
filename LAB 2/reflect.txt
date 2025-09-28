@@ -1,0 +1,26 @@
+
+Lab 2 Reflection - Algorithm Analysis and Group Work
+
+When comparing our group's implementations during the lab, 
+I noticed some really interesting differences that taught me a lot about how algorithm choice affects performance. 
+For the fibonacci function, some of us used recursive approaches while others (like myself) used iterative solutions. 
+The recursive versions were much slower because they kept recalculating the same values over and over - 
+it was pretty eye-opening to see how dramatically this affected performance! For the sum_to_goal function, most of us used the nested loop approach, 
+but I saw that some people wrote cleaner code with better variable names and slightly different loop structures. One group member had optimized their loops a bit differently, 
+which made a small but noticeable difference in timing. It really showed me how even small coding choices can add up to affect performance.
+
+There was definitely a difference in space resource usage between our implementations. 
+The most obvious difference was with fibonacci implementations where the recursive solutions used way more memory because each function call gets added to the call stack, 
+and with larger numbers, this really adds up. My iterative version only used a couple of variables to track the previous values, 
+so it used constant space regardless of how big n gets. For sum_to_goal, the space usage was pretty similar across our group since we all used the nested loop approach, 
+but I realized that if someone had used a hash map or dictionary to store values they'd seen before, it could potentially use more space but be faster for certain inputs.
+
+This lab really opened my eyes to how much algorithm choice matters! 
+I used to think that as long as code worked, that was good enough, 
+but seeing the huge timing differences between recursive and iterative fibonacci really drove home the point that HOW you solve a problem is just as important as solving it correctly. 
+I also learned that there are trade-offs everywhere in programming - the recursive fibonacci is much easier to understand and looks more elegant, 
+but it's terribly inefficient. Sometimes the "prettier" code isn't the better code from a performance standpoint. 
+Another big takeaway was that even small optimizations can make a difference when you're dealing with larger inputs. 
+The differences we saw in our group might seem small now, but I can imagine how they'd compound with bigger datasets. 
+Overall, this exercise made me realize I need to think more critically about the algorithms I choose and consider both time and space complexity when writing code, 
+not just whether it produces the right answer.
