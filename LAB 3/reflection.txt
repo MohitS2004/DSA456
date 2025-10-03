@@ -1,0 +1,18 @@
+Q1 How to Approach Writing Recursive Functions
+
+When I get to recursive functions I have learned to begin by finding the base case - 
+what I know are the easiest inputs where I am able to directly know the answer without the use of recursion.
+As an example, using the factorial function I was aware that 0! and 1! are both equal to 1 and therefore they became my base cases. 
+Then I solve the recursive case, and write it out in the form of how to solve the problem, 
+by splitting it into smaller versions of itself, and always moving every recursive call as near the base case as possible lest we get into an infinite loop. 
+The most important lesson I have learned is that it is possible to rely on the fact that the recursive call will function properly on the smaller problem 
+and concentrate on adding that output to the other work to address the problem at hand.
+
+Q3 Process of Analyzing Recursive Functions
+
+Recursive functions are more difficult to analyze than iterative functions in that, 
+rather than merely tallying the number of operations in a loop, I must establish recurrence equations, 
+which define how much work at each level is bound to a smaller subproblem, and then solve these mathematical equations, such as by substitution. 
+Nonetheless, it is not completely different - I can still recognize fundamental operations, apply Big-O notation and check examples. 
+The peculiarity of recursive analysis is that I consider the structure of the recursion tree and how many levels it has and how much work occurs at each level,
+which provides me with a better concept of the efficiency of the algorithms and helps me understand why some recursive algorithms are more efficient than others.
